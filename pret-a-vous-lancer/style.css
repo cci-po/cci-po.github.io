@@ -1,0 +1,50 @@
+/* import fira-sans and use it as default font */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.frame 
+{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    padding-left: 1em;
+}
+
+ul {
+
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    font-size: x-large;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    transition: 300ms;
+}
+
+li:hover {
+    /* Zoom a bit */
+    transform: scale(1.1);
+}
+
+a {
+    color: #373cf5;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
